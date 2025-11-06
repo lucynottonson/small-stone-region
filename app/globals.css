@@ -1,11 +1,12 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --color-1: #dafffd; /* background color */
   --color-2: #90e8d4; /* text color */
+  --color-3: #3a2503; /* hover color for links (IF OG COLOR IS COLOR 1) */
 
-  /* additional/unlabeled colors */
-  --color-3: #3a2503; 
   --color-4: #ff3e3e; 
   --color-5: #ffba08;
 }
@@ -13,5 +14,61 @@
 body {
   background: var(--color-1);
   color: var(--color-2);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-figtree), Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  padding: 1rem 1.5rem;            /* px-6 py-4 */
+  display: flex;
+  justify-content: center;
+  background: var(--color-1);
+  font-family: inherit; /* ensures figtree */
+}
+
+.navbar__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;                     /* gap-6 */
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar__item {
+  margin: 0;
+}
+
+.navbar__link-wrap {
+  display: inline-block;           
+  transform-origin: center;
+}
+
+.navbar__link {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;        /* px-5 py-3 */
+  border-radius: 9999px;           /* rounded-full */
+  text-decoration: none;
+  font-size: 1.25rem;              /* text-xl */
+  color: var(--color-2);
+  transition: color 200ms ease, transform 120ms ease;
+  will-change: transform, color;
+}
+
+.navbar__link--active {
+  color: var(--color-3);
+  font-weight: 700;
+}
+
+.navbar__link-wrap:hover .navbar__link,
+.navbar__link:focus {
+  color: var(--color-3);
+}
+
+/* responsiveness: reduce gap and padding on small screens */
+@media (max-width: 640px) {
+  .navbar__list { gap: 1rem; }
+  .navbar__link { padding: 0.5rem 0.75rem; font-size: 1rem; }
 }

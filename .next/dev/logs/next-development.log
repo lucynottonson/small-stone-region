@@ -1,15 +1,1750 @@
-[00:00:01.410] Server  LOG      ✓ Ready in 1241ms
-[00:03:08.403] Server  LOG     It looks like you're trying to use TypeScript but do not have the required package(s) installed.
-Installing dependencies
+[00:00:00.466] Server  LOG      ✓ Ready in 359ms
+[00:01:40.460] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:01:40.460] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:03:31.618] Server  LOG      ✓ Compiled in 11ms
+[00:03:44.737] Server  LOG      ✓ Compiled in 20ms
+[00:03:58.498] Server  LOG      ✓ Compiled in 16ms
+[00:04:18.726] Server  LOG      ✓ Compiled in 20ms
+[00:04:43.054] Server  LOG      ✓ Compiled in 10ms
+[00:04:55.913] Server  LOG      ✓ Compiled in 15ms
+[00:05:51.419] Server  LOG      ✓ Compiled in 15ms
+[00:07:36.132] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:07:36.132] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:07:49.493] Server  LOG      ✓ Compiled in 16ms
+[00:08:01.303] Server  LOG      ✓ Compiled in 12ms
+[00:10:27.262] Server  LOG      ✓ Compiled in 10ms
+[00:10:40.775] Server  LOG      ✓ Compiled in 10ms
+[00:10:54.073] Server  LOG      ✓ Compiled in 14ms
+[00:11:04.439] Server  LOG      ✓ Compiled in 10ms
+[00:11:37.153] Server  LOG      ✓ Compiled in 15ms
+[00:13:47.336] Server  LOG      ✓ Compiled in 10ms
+[00:15:29.695] Server  LOG      ✓ Compiled in 9ms
+[00:15:37.706] Server  LOG      ✓ Compiled in 7ms
+[00:23:54.821] Server  LOG      ✓ Compiled in 155ms
+[00:23:54.942] Server  ERROR    ⨯ ReferenceError: geistMono is not defined
+[00:23:54.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:23:54.946] Browser ERROR   unhandledRejection: undefined
+[00:23:54.946] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:23:54.960] Server  ERROR    ⨯ ReferenceError: geistMono is not defined
+[00:23:55.492] Browser ERROR   uncaughtError: ReferenceError: geistMono is not defined
+[00:24:38.564] Server  LOG      ✓ Compiled in 25ms
+[00:24:46.870] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:46.894] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/%5Broot-of-the-server%5D__7479f440._.css
+[00:24:46.909] Server  ERROR    ⨯ ReferenceError: geistMono is not defined
+[00:24:47.108] Browser ERROR   uncaughtError: ReferenceError: geistMono is not defined
+[00:25:54.350] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:25:54.358] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:25:54.460] Browser ERROR   unhandledRejection: undefined
+[00:26:50.798] Server  LOG      ✓ Compiled in 14ms
+[00:26:54.357] Server  LOG      ✓ Compiled in 10ms
+[00:28:25.960] Server  LOG      ✓ Compiled in 11ms
+[00:28:26.088] Browser ERROR   ./app/components/navbar.tsx:30:3
+Parsing ecmascript source code failed
+  28 |   )
+  29 | }
+> 30 | ```// filepath: /Users/lucynottonson/small-stone-region/app/components/navbar.tsx
+     |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 31 | import Link from 'next/link'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 32 | import React from 'react'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 33 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 34 | export default function Navbar(): React.ReactElement {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 35 |   return (
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 36 |     <nav aria-label="Primary" role="navigation">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 37 |       <div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 38 |         <Link href="/">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 39 |           <span>Small Stone Region</span>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 40 |         </Link>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 41 |       </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 42 | 
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 43 |       <ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 44 |         <li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 45 |           <Link href="/">Home</Link>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 46 |         </li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 47 |         <li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 48 |           <Link href="/docs">Docs</Link>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 49 |         </li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 50 |         <li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 51 |           <Link href="/templates">Templates</Link>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 52 |         </li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 53 |         <li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 54 |           <Link href="/signup">Sign up</Link>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 55 |         </li>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 56 |       </ul>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 57 |     </nav>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 58 |   )
+     | ^^^^
 
-If you are not trying to use TypeScript, please remove the tsconfig.json file from your package root (and any TypeScript files in your app and pages directories).
+Unterminated template
 
-[00:03:08.425] Server  LOG     
-[00:03:08.425] Server  LOG     Installing devDependencies (npm):
-[00:03:08.425] Server  LOG     - typescript
-[00:03:08.425] Server  LOG     - @types/react
-[00:03:08.426] Server  LOG     - @types/node
-[00:03:08.426] Server  LOG     
-[00:03:09.500] Server  LOG     
-[00:03:09.502] Server  LOG     
-[00:03:09.503] Server  LOG        We detected TypeScript in your project and created a tsconfig.json file for you.
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+[00:30:05.405] Server  LOG      ✓ Compiled in 11ms
+[00:30:18.296] Server  LOG      ✓ Compiled in 12ms
+[00:30:18.476] Browser ERROR   uncaughtError: ReferenceError: Can't find variable: usePathname
+[00:33:30.457] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.458] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.459] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.461] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.462] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.462] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.463] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.464] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.476] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.477] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.477] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.478] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.479] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.480] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.480] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.481] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.482] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.483] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.484] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.484] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.485] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.485] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.485] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.486] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.487] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.487] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.487] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.488] Server  ERROR    ⨯ ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:33:30.525] Server  LOG      ✓ Compiled in 1575ms
+[00:33:30.734] Browser ERROR   ./app/components/navbar.tsx:5:1
+Module not found: Can't resolve 'framer-motion'
+  3 | import Link from 'next/link';
+  4 | import { usePathname } from 'next/navigation';
+> 5 | import { motion } from 'framer-motion';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { Raleway } from 'next/font/google';
+  7 |
+  8 | const raleway = Raleway({ subsets: ['latin'], weight: ['400','700'] });
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:35:50.372] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:35:50.387] Server  LOG      ✓ Compiled in 17ms
+[00:36:31.910] Server  LOG      ✓ Compiled in 17ms
+[00:37:19.044] Server  LOG      ✓ Compiled in 20ms
+[00:37:28.412] Server  LOG      ✓ Compiled in 50ms
+[00:41:15.207] Server  LOG      ✓ Compiled in 12ms
+[00:43:10.950] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.951] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.952] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.952] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.991] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.991] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.992] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.992] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.994] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.994] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.995] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.995] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.995] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:10.996] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:11.023] Server  LOG      ✓ Compiled in 272ms
+[00:43:11.224] Browser ERROR   ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:15.578] Browser ERROR   ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './navbar.css'
+  1 | 'use client';
+  2 |
+> 3 | import './navbar.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:33.061] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.062] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.062] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.063] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.064] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.065] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.065] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.065] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.066] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.067] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.068] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.068] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.069] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.069] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:33.093] Server  LOG      ✓ Compiled in 12ms
+[00:43:33.197] Browser ERROR   ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:35.377] Browser ERROR   ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:43:44.206] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.207] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.208] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.208] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.209] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.209] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.210] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.210] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.211] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.212] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.213] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.213] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.214] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.214] Server  ERROR    ⨯ ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:43:44.239] Server  LOG      ✓ Compiled in 7ms
+[00:43:44.341] Browser ERROR   ./app/components/navbar.tsx:3:1
+Module not found: Can't resolve './/global.css'
+  1 | 'use client';
+  2 |
+> 3 | import './/global.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Link from 'next/link';
+  5 | import { usePathname } from 'next/navigation';
+  6 | import { motion } from 'framer-motion';
+
+Import trace:
+  Server Component:
+    ./app/components/navbar.tsx
+    ./app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:44:41.056] Server  LOG      ✓ Compiled in 21ms
+[00:44:41.230] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:47:11.720] Server  LOG      ✓ Compiled in 47ms
+[00:47:11.919] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/lucynottonson/small-stone-region/app/globals.css:41:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:17.277] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/lucynottonson/small-stone-region/app/globals.css:41:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:47:59.867] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/lucynottonson/small-stone-region/app/globals.css:41:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:48:10.209] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/lucynottonson/small-stone-region/app/globals.css:41:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:48:50.913] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/lucynottonson/small-stone-region/app/globals.css:41:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:48:55.845] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/lucynottonson/small-stone-region/app/globals.css:41:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:49:12.658] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/lucynottonson/small-stone-region/app/globals.css:41:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:52:13.672] Server  LOG      ✓ Compiled in 20ms
+[00:52:44.520] Server  LOG      ✓ Compiled in 20ms
+[00:56:58.549] Server  LOG      ✓ Compiled in 23ms
